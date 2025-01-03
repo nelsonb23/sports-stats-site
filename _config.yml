@@ -49,6 +49,9 @@ plugins:
     - jekyll-asciidoc
     - jekyll-gist
     - jekyll-paginate
+    - jekyll-remote-theme
+    - jekyll-seo-tag
+    - jekyll-paginate
 
 
 #       ____              _             __  _
