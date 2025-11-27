@@ -427,3 +427,48 @@ img.lazy {
   50% { opacity: 0.6; }
   100% { opacity: 1; }
 }
+
+.league-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.league-card {
+  background: #fff;
+  border: 1px solid $grey-2;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.league-card__image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  background: $grey-3;
+}
+
+.league-card__body {
+  padding: 1rem 1.2rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.league-card h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.league-card__bullets {
+  padding-left: 1.2rem;
+  margin: 0;
+  display: grid;
+  gap: 0.35rem;
+  color: $grey-9;
+}

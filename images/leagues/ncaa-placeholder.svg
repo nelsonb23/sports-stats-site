@@ -1,0 +1,19 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NCAA spotlight placeholder</title>
+  <desc id="desc">Collegiate stripes with N C A A text.</desc>
+  <defs>
+    <linearGradient id="ncaaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3F2B96" />
+      <stop offset="100%" stop-color="#A8C0FF" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#ncaaGradient)" rx="24" />
+  <g opacity="0.35" stroke="#ffffff" stroke-width="8" fill="none">
+    <path d="M160 90 H640" />
+    <path d="M160 170 H640" />
+    <path d="M160 250 H640" />
+    <path d="M160 330 H640" />
+  </g>
+  <text x="50%" y="52%" text-anchor="middle" font-family="'Montserrat', 'Helvetica', 'Arial', sans-serif" font-size="64" font-weight="800" fill="#F1F5FF" letter-spacing="10">NCAA</text>
+  <text x="50%" y="64%" text-anchor="middle" font-family="'Montserrat', 'Helvetica', 'Arial', sans-serif" font-size="24" font-weight="500" fill="#E7EDFF">School pride, rankings, and bracket chatter</text>
+</svg>

@@ -6,6 +6,19 @@
   url: "/teams/"
   side: left
 
+- title: Leagues
+  url: "/leagues/"
+  side: left
+  dropdown:
+  - title: "NBA"
+    url: "/leagues/#nba"
+  - title: "NFL"
+    url: "/leagues/#nfl"
+  - title: "MLB"
+    url: "/leagues/#mlb"
+  - title: "NCAA"
+    url: "/leagues/#ncaa"
+
 - title: Players
   url: "/players/"
   side: left
