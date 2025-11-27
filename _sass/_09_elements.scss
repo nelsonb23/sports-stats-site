@@ -160,3 +160,270 @@ img.lazy {
     margin-top: -50px;
   }
 }
+
+/* Mintboxx-inspired hero */
+.mint-hero {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2.5rem;
+  border-radius: 16px;
+  background: linear-gradient(135deg, lighten($ci-2, 18%), $ci-2);
+  color: #0b1e31;
+}
+
+.mint-hero__content h1 {
+  margin-top: 0.2rem;
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.mint-hero__content .lede {
+  max-width: 34rem;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.mint-hero__panel {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.mint-hero__panel .panel-label {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  color: $ci-1;
+  margin: 0 0 0.6rem 0;
+}
+
+.panel-metrics {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.panel-metrics li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid $grey-2;
+}
+
+.panel-metrics .metric {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: $ci-1;
+}
+
+.panel-metrics .label {
+  color: $grey-9;
+  font-weight: 500;
+}
+
+.panel-footnote {
+  margin: 0;
+  color: $grey-9;
+  font-size: 0.95rem;
+}
+
+.section-shell {
+  margin: 2.5rem 0;
+  padding: 1rem 0;
+}
+
+.section-header {
+  margin-bottom: 1rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.9rem;
+  color: $ci-1;
+  margin-bottom: 0.2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.grid--two {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.card {
+  background: #fff;
+  border: 1px solid $grey-2;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
+
+.checklist {
+  list-style: decimal;
+  margin-left: 1rem;
+}
+
+.note {
+  border-left: 4px solid $ci-2;
+  padding: 1rem;
+  background: lighten($ci-2, 35%);
+  border-radius: 8px;
+}
+
+.team-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.team-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  border: 1px solid $grey-2;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.05);
+  position: relative;
+}
+
+.team-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--primary, $ci-1), var(--accent, $ci-2));
+  opacity: 0.08;
+  z-index: 0;
+}
+
+.team-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.team-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-card .badge {
+  background: var(--accent, $ci-2);
+  color: #0b1e31;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.team-card__meta {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: $ci-1;
+}
+
+.team-card__footer {
+  display: flex;
+  justify-content: space-between;
+  color: $grey-9;
+  margin-top: 0.5rem;
+}
+
+.live-score-shell {
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid $grey-2;
+  padding: 1rem;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+}
+
+.live-score-status {
+  margin-bottom: 0.75rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  background: lighten($ci-2, 35%);
+  color: $ci-1;
+}
+
+.live-score-status.loading {
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+.live-score-status.error {
+  background: lighten($alert-color, 25%);
+  color: $alert-color;
+}
+
+.live-score-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.live-score-card {
+  border: 1px solid $grey-2;
+  border-radius: 10px;
+  padding: 0.9rem;
+  background: #fdfefe;
+}
+
+.live-score-card.placeholder {
+  color: $grey-8;
+  font-style: italic;
+}
+
+.live-score-meta {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  color: $ci-1;
+}
+
+.live-score-card .matchup {
+  font-size: 1.1rem;
+  margin: 0.2rem 0;
+  font-weight: 700;
+}
+
+.live-score-card .score-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.live-score-card .score {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.live-score-card .possession {
+  color: $grey-8;
+}
+
+.live-score-card .updated {
+  margin-top: 0.25rem;
+  color: $grey-8;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.6; }
+  100% { opacity: 1; }
+}
