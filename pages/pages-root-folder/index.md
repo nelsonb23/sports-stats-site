@@ -18,7 +18,7 @@ widget3:
   image: widget-3-302x182.jpg
   text: 'Highlight key players with quick metrics, links, and thumbnails to speed up scouting.'
 callforaction:
-  url: {{ site.baseurl }}/about/
+  url: "{{ site.baseurl }}/about/"
   text: Meet the vision behind Mintboxx Sports Lab ›
   style: success
 permalink: /index.html
