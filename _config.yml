@@ -8,13 +8,13 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'Sports Data Science'
+title: 'Mintboxx Sports Lab'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'A Flexible Theme for Jekyll'
+slogan: 'Data-rich sports insights with a mint-forward aesthetic'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: '»Sports Data Science« is a website dedicated to diving into the deep end of sports statistics to find an edge in predicting outcomes.'
+description: 'Mintboxx-inspired hub for fast sports dashboards, live game snapshots, and data-backed storytelling.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'

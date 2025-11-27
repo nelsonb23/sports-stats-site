@@ -1,0 +1,44 @@
+- name: Bay City Breakers
+  conference: Coastal
+  record: 12-4
+  form: W W L W W
+  primary_color: "#0f2d52"
+  accent_color: "#28c76f"
+  venue: Harborline Pavilion
+  city: Bay City
+
+- name: River Valley Raptors
+  conference: Heartland
+  record: 10-6
+  form: L W W W L
+  primary_color: "#18324c"
+  accent_color: "#67e0b8"
+  venue: Rapids Arena
+  city: River Valley
+
+- name: Northern Lights FC
+  conference: Summit
+  record: 9-7
+  form: W L W L W
+  primary_color: "#123042"
+  accent_color: "#5be3a4"
+  venue: Aurora Dome
+  city: Glacier Bay
+
+- name: Capital Comets
+  conference: Metro
+  record: 11-5
+  form: W W W L W
+  primary_color: "#0c2544"
+  accent_color: "#24d198"
+  venue: Monument Grounds
+  city: Capital City
+
+- name: Desert Suns
+  conference: Frontier
+  record: 8-8
+  form: L L W W L
+  primary_color: "#1d374c"
+  accent_color: "#7cf0c8"
+  venue: Horizon Center
+  city: Mesa Verde
