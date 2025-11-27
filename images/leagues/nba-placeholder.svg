@@ -1,0 +1,18 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NBA spotlight placeholder</title>
+  <desc id="desc">Gradient backdrop with basketball court lines and NBA text.</desc>
+  <defs>
+    <linearGradient id="nbaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#133E7C" />
+      <stop offset="100%" stop-color="#1D9BF0" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#nbaGradient)" rx="24" />
+  <g opacity="0.35" stroke="#ffffff" stroke-width="6" fill="none">
+    <rect x="120" y="80" width="560" height="290" rx="18" />
+    <line x1="400" y1="80" x2="400" y2="370" />
+    <circle cx="400" cy="225" r="52" />
+  </g>
+  <text x="50%" y="52%" text-anchor="middle" font-family="'Montserrat', 'Helvetica', 'Arial', sans-serif" font-size="72" font-weight="800" fill="#F2F5F9" letter-spacing="2">NBA</text>
+  <text x="50%" y="63%" text-anchor="middle" font-family="'Montserrat', 'Helvetica', 'Arial', sans-serif" font-size="24" font-weight="500" fill="#D9E2EF">Stats, stories, and nightly highlights</text>
+</svg>
